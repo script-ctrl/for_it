@@ -2,10 +2,92 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Мой сайт</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: #aaa;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Привет, мир!</h1>
-  <p>Это мой первый сайт на GitHub Pages 🚀</p>
+
+  <header>
+    <h1>Привет, я [ТВОЁ ИМЯ]</h1>
+    <p>Добро пожаловать на мой сайт 👋</p>
+    <nav>
+      <a href="#about">Обо мне</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>Обо мне</h2>
+      <p>Здесь ты можешь написать информацию о себе — чем занимаешься, увлечения, чем хочешь поделиться с другими.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Мои проекты</h2>
+      <ul>
+        <li><b>Проект 1:</b> описание или ссылка</li>
+        <li><b>Проект 2:</b> описание или ссылка</li>
+        <li><b>Проект 3:</b> описание или ссылка</li>
+      </ul>
+    </section>
+
+    <section id="contacts">
+      <h2>Контакты</h2>
+      <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+      <p>Telegram: <a href="https://t.me/yourusername" target="_blank">@yourusername</a></p>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 | Сделано с ❤
+  </footer>
+
 </body>
 </html>
